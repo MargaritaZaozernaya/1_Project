@@ -1,17 +1,10 @@
+side_a = float(input("Please enter side A: "))
+side_b = float(input("Please enter side B: "))
+side_c = float(input("Please enter side C: "))
 
-print(56)
-print(type(56))
+half_perimeter = (side_a + side_b + side_c) / 2
+triangle_area = (half_perimeter * (half_perimeter - side_a) * (half_perimeter - side_b) * (half_perimeter - side_c)) * 0.5
 
-
-print(25.12556)
-print(type(56.1626))
-
-
-
-
-
-
-
-
+print(triangle_area)
 
 
