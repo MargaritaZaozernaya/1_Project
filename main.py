@@ -1,10 +1,13 @@
-side_a = float(input("Please enter side A: "))
-side_b = float(input("Please enter side B: "))
-side_c = float(input("Please enter side C: "))
+world = "world"
 
-half_perimeter = (side_a + side_b + side_c) / 2
-triangle_area = (half_perimeter * (half_perimeter - side_a) * (half_perimeter - side_b) * (half_perimeter - side_c)) * 0.5
+filled_list = [12, 0.232, 'helo', world, True, None, [1, 2, 3, 4], False]
+print(len(filled_list))
 
-print(triangle_area)
+courses = ['history', 'math', 'literature', 'programming']
 
+test_list = [1, 2, 3]
+test_list[0] = 555
+print(test_list[0])
+print(test_list)
 
+courses.append('Art')
